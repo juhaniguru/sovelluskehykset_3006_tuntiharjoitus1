@@ -12,8 +12,8 @@
 <body>
 <h1>All Vehicles!</h1>
 <ul>
-{% for v in vehicles %}
-    <li>{{ v['make'] }} ({{ v['model'] }})</li>
+{% for v in vehicles_param %}
+    <li>{{ v.make }} ({{ v.model }})</li>
 {% endfor %}
 </ul>
 
